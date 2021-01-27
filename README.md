@@ -1,27 +1,32 @@
-barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
+Backend repository for the [Betalife app](https://betalife-frontend.netlify.app). 
+
+See '__Usage__' for example test on the backend. 
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9a016eb72eea47f9a17050dbbbee9520)](https://app.codacy.com/gh/BuildForSDG/team-001-backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/team-001-backend&utm_campaign=Badge_Grade_Settings)
 
 
 ## About
+This is the backend I created for my team on our Betalife project,
+This backend uses __MongoDB__ for database. 
+All features can be tested from the frontend, 
+[Betalife App](https://betalife-frontend.netlify.app) under the BuildForSDG projects. 
+See also __Example__ for testing out the RESTful API 
 
-What is this project about. Ok to enrich here or the section above it with an image. 
 
-Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
-
-This is a simple JavaScript starter repo template for setting up your project. The setup contains
-
-- Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
-
-- Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
 
 ## Why
 
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant
+Our Betalife project needed a database, Authentication, REST API and other backend features for the Web app. 
 
 ## Usage
- How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
+You can directly test the backend on https://betalife-backend.herokuapp.com
 
+#### Example ####
+See a list of all events created from frontend:
+https://betalife-backend.herokuapp.com/api/events
+
+Or visit the frontend for 
+[Betalife App](https://betalife-frontend.netlify.app) to test out all features. 
 
 ## Setup
 
@@ -31,9 +36,9 @@ After clonning the repo to your local machine and moving into the cloned folder,
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
 
-All tests should be written in the `__tests__' folder. There's a sample in there.
+All tests are written in the `__tests__' folder.
 
-This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
+This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler than WebPack and the others
 
 #### Hints
 
@@ -45,23 +50,17 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 - Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
 
 ## Authors
+See https://betalife-frontend.netlify.app/About for all contributors for the Betalife project 
 
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
 First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
-1.  area one (e.g this app is about human trafficking and you need feedback on your roadmap and feature list from the private sector / NGOs)
-2.  area two (e.g you want people to opt-in and try using your staging app at staging.project-name.com and report any bugs via a form)
-3.  area three (e.g here is the zoom link to our end-of sprint webinar, join and provide feedback as a stakeholder if you can)
+The Betalife Project aims to tackle the No Poverty Goal under the UN Sustainable Development Goal. 
 
 ## Acknowledgements
-
-Did you use someone else’s code?
-Do you want to thank someone explicitly?
-Did someone’s blog post spark off a wonderful idea or give you a solution to nagging problem?
-
-It's powerful to always give credit.
+A big thanks to Andela BuildForSDG for the for guidance and support. 
+Also grateful to the Developers on my team. 
 
 ## LICENSE
 MIT
